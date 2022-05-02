@@ -18,7 +18,7 @@ public class Main {
         double res = a / b;
         if(b == 0){
             System.out.println("除数不能为零");
-            throw new ArithmeticException("除数不能为零");
+            throw new ArithmeticException("除数11111不能为零");
         }
         return res;
     }
