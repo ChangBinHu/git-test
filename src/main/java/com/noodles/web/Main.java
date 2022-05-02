@@ -22,4 +22,7 @@ public class Main {
         }
         return res;
     }
+    public static double forSum(double a, double b){
+        return a+b;
+    }
 }
