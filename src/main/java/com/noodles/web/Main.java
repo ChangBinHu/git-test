@@ -17,12 +17,16 @@ public class Main {
     public static double forDivision(double a,double b){
         double res = a / b;
         if(b == 0){
-            System.out.println("除数不能为零111111");
+            System.out.println("除数不能为零");
             throw new ArithmeticException("除数不能为零");
         }
         return res;
     }
     public static double forSum(double a, double b){
         return a+b;
+    }
+
+    public static double forMultiplication(int a, int b){
+        return a*b;
     }
 }
