@@ -16,6 +16,9 @@ public class Main {
     }
     public static double forDivision(double a,double b){
         double res = a / b;
+        if(b == 0){
+            throw new ArithmeticException("除数不能为零");
+        }
         return res;
     }
 }
