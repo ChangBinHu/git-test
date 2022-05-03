@@ -29,4 +29,8 @@ public class Main {
     public static double forMultiplication(int a, int b){
         return a*b;
     }
+
+    public static double forSubTraction(int a, int b){
+        return a - b;
+    }
 }
