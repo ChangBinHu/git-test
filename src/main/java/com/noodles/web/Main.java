@@ -17,7 +17,7 @@ public class Main {
     public static double forDivision(double a,double b){
         double res = a / b;
         if(b == 0){
-            System.out.println("除数不能为零111111");
+            System.out.println("和git rebase修改同一个内容");
             throw new ArithmeticException("除数不能为零");
         }
         return res;
